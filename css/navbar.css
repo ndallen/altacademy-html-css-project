@@ -13,3 +13,13 @@
 .navbar-inverse .navbar-nav>li>a:hover {
   color: lightgrey;
 }
+
+@media (min-width: 767px){
+  .navbar-right {
+    padding-right: 50px;
+  }
+  .navbar li{
+    margin:0 auto;
+  }
+}
+
