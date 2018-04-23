@@ -1,0 +1,54 @@
+body {
+	background-color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	/*background-image: url("/images/main/back-image.jpg");*/
+	background-repeat: no-repeat;
+	background-color: #fff;
+	padding-top: 45px;
+	
+	}
+
+
+.main-content {
+	width: 85%;
+
+	/*background-color: lightgrey;*/
+}
+#logo {
+	font-weight: 300;
+}
+
+.bio-box {
+	margin-top: 25px;
+	text-align: center;
+	border: solid 1px black;
+	border-radius: 20px;
+	background-color: white;
+}
+
+.profile-pic {
+	margin: 0 auto;
+}
+
+ul {
+    list-style-position: inside;
+
+}
+
+.portfolio-images {
+	margin-top: 25px;
+	width: 100%;
+	border: solid 1px black;
+	border-radius: 20px;
+
+}
+
+.mobile-title {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.about-us {
+	font-weight: 400;
+}
