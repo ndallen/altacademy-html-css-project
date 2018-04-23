@@ -1,0 +1,21 @@
+.headline-list {
+	font-weight: bold;
+}
+
+#headline-title {
+	color: red;
+	padding: 20px 0 20px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: lightgrey !important;
+    color: black;
+
+}
+
+@media (max-width: 992px){
+
+  .grey-back {
+    background-color: #f2f2f2;
+  }
+}
