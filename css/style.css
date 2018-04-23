@@ -4,7 +4,7 @@ body {
 	font-weight: 700;
 	/*background-image: url("/images/main/back-image.jpg");*/
 	background-repeat: no-repeat;
-	background-color: #fff;
+	 background: linear-gradient(-90deg, #fff, lightgrey);
 	padding-top: 45px;
 	
 	}
@@ -25,10 +25,16 @@ body {
 	border: solid 1px black;
 	border-radius: 20px;
 	background-color: white;
+	box-shadow:  1px 1px 2px #888888;
+	
 }
 
 .profile-pic {
 	margin: 0 auto;
+}
+
+h4:hover {
+	color: grey;
 }
 
 ul {
@@ -42,6 +48,7 @@ ul {
 	border: solid 1px black;
 	border-radius: 20px;
 
+
 }
 
 .mobile-title {
@@ -51,6 +58,9 @@ ul {
 
 .about-us {
 	font-weight: 400;
+	font-size: 1.2em;
+	text-align: left;
+	padding-bottom: 10px;
 }
 
 /* Style all font awesome icons */
@@ -101,9 +111,9 @@ a, a:hover {
 
 .footer-navigation li{
 	list-style: none outside none;
-    display: inline-block;
+    display: block;
     padding-top: 30px;
-    text-align: center;
+    
 }
 
 .footer-navigation a{
@@ -113,5 +123,30 @@ a, a:hover {
 	text-align: center;
 	border: 1px solid black;
 	border-radius: 15px;
+
+}
+.footer-navigation {
+	text-align: center;
+	margin-right: 30px;
+}
+.footer-navigation a:hover {
+	color: white;
+	background-color: black;
 }
 
+.btn {
+	border-radius: 20px;
+	border: 1px solid black;
+	margin: 20px 5px 25px 5px;
+}
+
+.btn:hover {
+	color: white;
+	background-color: black;
+
+}
+
+hr {
+	border: 1px solid black;
+
+}
