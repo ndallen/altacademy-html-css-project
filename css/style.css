@@ -6,6 +6,7 @@ body {
 	background-repeat: no-repeat;
 	 background: linear-gradient(-90deg, #fff, lightgrey);
 	padding-top: 45px;
+
 	
 	}
 
@@ -51,9 +52,12 @@ ul {
 
 }
 
+
+
 .mobile-title {
 	padding-top: 20px;
 	text-align: center;
+
 }
 
 .about-us {
@@ -61,6 +65,7 @@ ul {
 	font-size: 1.2em;
 	text-align: left;
 	padding-bottom: 10px;
+
 }
 
 /* Style all font awesome icons */
@@ -149,4 +154,13 @@ a, a:hover {
 hr {
 	border: 1px solid black;
 
+}
+
+.footer-nav {
+	background-color: white;
+
+}
+
+.footer-nav a {
+	width: 20%;
 }
