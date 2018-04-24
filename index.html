@@ -28,20 +28,12 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li ><a href="#">HOME</a></li>
-        <li ><a href="#">ABOUT</a></li>
-         <li ><a href="#">PORTFOLIO</a></li>
-        <!-- <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Full Stack</a></li>
-            <li><a href="#">Front End</a></li> -->
-          </ul>
+        <li ><a href="#about">ABOUT</a></li>
+         <li ><a href="#portfolio">PORTFOLIO</a></li>
         </li>
-        
-    
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> CONTACT</a></li>
+        <li><a href="#contact"><span class="glyphicon glyphicon-user"></span> CONTACT</a></li>
         
       </ul>
     </div>
@@ -51,8 +43,8 @@
 <div class="container-fluid main-content">
     <div class="row">
       <div class="all-content">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 bio">
-        <div class="bio-box">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 bio">
+        <div class="bio-box" id="about">
             <h2>NEIL ALLEN</h2>
             <img src="images/main/profile.jpg" class="profile-pic img-responsive" alt="profile pic">
             <h3 class="skills">FULL STACK WEB DEVELOPER</h3>
@@ -60,17 +52,12 @@
             <h4 class="skills">JAVASCRIPT</h4>
             <h4 class="skills">JQUERY</h4>
             <h4 class="skills">RUBY / RAILS</h4>
-           
             <button type="button" class="btn btn-dark btn-lg">GITHUB</button>
-           <button type="button" class="btn btn-outline-secondary btn-lg">LINKEDIN</button>
-            
+            <button type="button" class="btn btn-outline-secondary btn-lg">LINKEDIN</button>       
+          </div> <!-- bio-box div -->    
+          </div> <!-- bootstrap sizing -->
 
-         
-    </div> <!-- bio-box div -->
-    
-    </div> <!-- bootstrap sizing -->
-
-         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 about-us">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 about-us">
             <h3 class="mobile-title">ABOUT ME</h3>
             <div class="about-me-content">
             <p>I am a full-stack web developer specializing in CSS, Bootstrap, Javascript and jQuery for the front end and Ruby on Rails for the back end. </p>
@@ -79,16 +66,15 @@
              <p>In another life I was heavily involved in ecommerce marketplaces such as eBay, Amazon and Shopify so I can see problems from a different persepctive than most developers can.
              I also have experience of graphic design with extensive use of the Adobe Creative Suite.</p>
              <p>Get in touch so we can discuss your project and bring your ideas into life.<br><br><a href="contact.html"> &nbsp;Contact Me</a></p>
-         </div> <!-- widths    -->
+           </div> <!-- widths    -->
             </div> <!-- about me content -->
+
+
+          <!--  *****portfolio images****** -->
         
-          
-        
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 portfolio">
-        
-            <div class="all-placeholders-together">
-            <h3 class="mobile-title">PROJECT PORTFOLIO</h3>
-     
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 portfolio ">
+            <div class="" id="portfolio">
+            <h3 class="mobile-title">PROJECT PORTFOLIO</h3>   
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio">
             <a href="https://placeholder.com"><img src="http://via.placeholder.com/700x300" class=" portfolio-images img-responsive"></a>
         </div>
@@ -107,33 +93,49 @@
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 portfolio">
             <a href="https://placeholder.com"><img src="http://via.placeholder.com/700x300" class=" portfolio-images img-responsive"></a>
         </div>
-        </div>
-        </div> <!-- container div -->
+       </div>
+     </div>
+       
    <footer>
-       <div class="col-xs-12 col-sm-12" >
-          <!-- Add font awesome icons -->
-    <div class="footer-navigation">
-
-    <ul >
-    
-     <button type="button" class="btn btn-dark btn-lg">HOME</button>
-    <button type="button" class="btn btn-outline-secondary btn-lg">ABOUT</button>
-    <button type="button" class="btn btn-dark btn-lg">CONTACT</button>
-          
-    <br>
-    </ul>
-    </div>
+    <div class="col-xs-12 col-sm-12">
+      <div class="footer-navigation">
+        <ul>
+          <a href="#" button type="button" class="btn btn-dark btn-lg" role="button">HOME</a>
+          <a href="#about" button type="button" class="btn btn-dark btn-lg" role="button">ABOUT</a>
+          <a href="#portfolio" button type="button" class="btn btn-dark btn-lg" role="button">PORTFOLIO</a>
+       <!-- <button type="button" class="btn btn-dark btn-lg">HOME</button> -->
+     <!--  <button type="button" class="btn btn-outline-secondary btn-lg">ABOUT</button>
+      <button type="button" class="btn btn-dark btn-lg">CONTACT</button>   -->   <br>   
+       </ul>
+     </div>
     <div class="socialbtns">
-    <ul>
-    <li><a href="#" class="fa fa-lg fa-github"></a></li>  
-    <li><a href="#" class="fa fa-lg fa-linkedin"></a></li>
-    <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
-    <li><a href="#" class="fa fa-lg fa-instagram"></a></li>
-    </ul>
+        <ul>
+        <li><a href="#" class="fa fa-lg fa-github"></a></li>  
+        <li><a href="#" class="fa fa-lg fa-linkedin"></a></li>
+        <li><a href="#" class="fa fa-lg fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-lg fa-instagram"></a></li>
+        </ul>
       </div> <!-- social buttons -->
-        </div><!-- all content -->
-        </div> <!-- row div -->
-       </div> <!-- widths -->
+      <section>
+
+       <!--  ****CONTACT FORM****** -->
+<div class="col-xs-6 col-sm-12 col-md-4-offset-8 col-lg-4-offset-8 col-xl-4-offset-8  ">
+  <div class="contact-form " id="contact">
+        <form action="/action_page.php">
+  <div class="form-group">
+    <h4 id="get-in-touch">EMAIL TO DISCUSS PROJECT</h4>
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email" placeholder="e.g email@gmail.com">
+  </div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+      </section>
+    </div> <!-- contact form div -->
+      </div><!-- all content -->
+      </div> <!-- row div -->
+      </div> <!-- widths -->
+      </div> <!-- container div -->
    </footer> 
 </body>
 </html>
